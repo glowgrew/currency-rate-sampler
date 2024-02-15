@@ -1,0 +1,11 @@
+###
+POST http://localhost:8080/jobs
+Content-Type: application/json
+
+{
+  "currencySymbol": "USD"
+}
+
+###
+@id=f8eb700a-1602-41a0-89a0-49fea8980c7d
+GET http://localhost:8080/jobs/{{id}}
